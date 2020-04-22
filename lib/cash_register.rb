@@ -27,6 +27,6 @@ class CashRegister
   end 
   
   def void_last_transaction
-    @total = @total - @total.apply_discount
+    @total = @total - @item_price
   end 
 end 
