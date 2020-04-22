@@ -12,7 +12,8 @@ class CashRegister
     @quantity = quantity
     @total = @total + item_price * @quantity
     while i < @quantity 
-    @item << 
+    @item << item_name
+    i += 1
     end
   end 
   
